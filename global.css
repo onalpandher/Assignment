@@ -1,0 +1,56 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid ;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+h1 {
+    font-size: 30px;
+    margin-bottom: 0;
+    color: rgb(128, 90, 163) ;
+}
+h4 {
+    color: rgb(128, 90, 163) ;
+}
+h6 {
+    color: brown;
+}
+.left {
+    width: 40%;
+    padding: 3rem;
+    float: left;
+}
+.right {
+    width: 40%;
+    padding: 3rem;
+    float: right;
+}
+.right div {
+    margin-bottom: 4rem;
+}
+.right div:first-child {
+    width: 100px;
+    height: 100px;
+}
+.right div:first-child img {
+    width: 100%;
+    border-radius: 150px;
+}
+a:hover
+{
+    color : red;
+}
+a
+{
+    color: black;
+}
+a:active
+{
+    color: aqua;
+}
